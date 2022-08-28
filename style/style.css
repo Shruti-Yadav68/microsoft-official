@@ -1,0 +1,346 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    padding-left: 15px;
+    align-items: center;
+}
+.logo{
+    height: 25px;
+    margin-right: 40px;
+    margin-left: 150px;
+    
+}
+.navdiv{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.navleft{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3px;
+}
+.navright{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3px;
+    margin-right: 130px;
+}
+.bi{
+    padding: 5px;
+}
+.hidden-icon{
+    display: none;
+}
+.hero-section{
+    height: 65vh;
+    width: 100%;
+    background-image: url(../images/img1.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.text-section1{
+    height: 200px;
+    width: 25%;
+    margin-left: 200px;
+}
+.head1{
+    font-weight: 420;
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+.para1{
+    font-weight: 300;
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+.btn1{
+    background-color: #0067B8;
+    height: 40px;
+    width: 170px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: 350;
+    margin-right: 20px;
+}
+.atr1{
+    border: none;
+}
+.atr2{
+    color: #0067B8;
+    text-decoration: none;
+    font-weight: 500;
+}
+.text-section1-responsive{
+    display: none;
+}
+.container2{
+    height: 100px;
+    width: 100%; 
+}
+.iconlist{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imgicon{
+    height: 40px;
+    width: 40px;
+    margin-bottom: 10px;
+}
+.grid1{
+    height: 100px;
+    width: 40%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 90px;
+    margin-left: 550px;
+}
+.container3{
+    width: 100%;
+    height: 540px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.laptop{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    height: 450px;
+    width: 85%;
+}
+.btn2{
+    height: 30px;
+    width: 60px;
+    color: black;
+    background-color: #FFB900;
+    border: none;
+    font-weight: 500;
+}
+.container4{
+    background-image: url(../images/img2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.text-section3{
+    height: 270px;
+    width: 550px;
+    background-color: white;
+    margin-right: 940px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+}
+.downloadbtn{
+    width: 140px;
+    height: 37px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    background-color: #0067B8;
+    font-size: medium;
+}
+.container5{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+.head5{
+    font-size: 40px;
+    font-weight: 450;
+    margin-right: 73%;
+    margin-bottom: 15px;
+}
+.iconspan{
+    display: flex;
+    height: 35px;
+    width: 280px;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 70%;
+    margin-top: 45px;
+}
+.icon{
+    height: 90%;
+}
+.fixedbtn{
+    background-color: DDDDDD;
+}
+.last-container{
+    width: 100%;
+    height: 380px;
+    
+}
+.last-container{
+    display: flex;
+    justify-content: space-between;
+}
+.lastul{
+    list-style: none;
+    line-height: 30px;
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-left: 140px;
+    font-weight: 300;
+    font-size: 12px;
+}
+.lasthead{
+    font-size: 15px;
+    font-weight: 400;
+}
+.last-line{
+    display: flex;
+    justify-content: space-between;
+    font-size: smaller;
+    margin-left: 135px;
+    font-weight: 300;
+    
+}
+.ul6{
+    display: flex;
+    list-style: none;
+    padding-right: 50px;
+    padding-left: 140px;
+    font-weight: 300;
+    font-size: 12px;
+    justify-content: space-between;
+    width: 42%;
+}
+.lastdiv{
+    height: 410px;
+    background-color: #F4F9F9;
+}
+
+
+@media(max-width: 768px){
+    .navdiv{
+        display: none;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .hidden-icon{
+        display: block;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo{
+        margin-right: 140px;
+    }
+    .hero-section{
+        background-image: url(../images//responsive\ img1.jpg);
+        display: flex;
+        flex-direction: column-reverse;
+    
+    }
+    .text-section1{
+        height: 100px;
+        
+    }
+   
+    .text-section1{
+        display: none;
+    }
+
+    .text-section1-responsive{
+        display: block;
+        padding: 50px;
+    }
+
+
+    .hero-section{
+        height: 40vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .grid1{
+        grid-template-rows: auto auto auto auto ;
+    }
+    .container3{
+        height: 2500px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        
+    }
+    .laptop{
+        display: flex;
+        flex-direction: column;
+        padding-left: 90px;
+        
+    }
+    .laptop1{
+        text-align: center;
+        display: contents;
+    }
+    .text-section3{
+        display: none;
+    }
+    .container4{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .container5{
+        display: flex;
+        flex-direction: column;
+        height: 430vh;
+    } 
+    .last-container{
+        flex-direction: column;
+    }
+    .last-line{
+        flex-direction: column;
+        
+    }
+    .lastdiv{
+        height: 300vh;
+        flex-direction: column;
+    }
+
+    }
+
+
